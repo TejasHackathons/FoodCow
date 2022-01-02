@@ -1,16 +1,11 @@
 const passwordValidator = require("password-validator");
 
-const validPhoneNumber = (phoneNum) => {
-  if (phoneNum.length == 10 && Number(phoneNum)) return true;
-  return false;
-};
-
 const schema = new passwordValidator();
 schema
   .is()
   .min(8)
   .is()
-  .max(11)
+  .max(20)
   .has()
   .lowercase()
   .has()
@@ -24,4 +19,4 @@ schema
 const validPassword = (password) => {
   return schema.validate(password);
 };
-export { validPhoneNumber as validPhoneNumber, validPassword as validPassword };
+module.exports = validPassword;
