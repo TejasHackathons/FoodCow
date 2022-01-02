@@ -1,0 +1,20 @@
+.myAccountContainer {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.myAccountText {
+  color: orange;
+}
+
+.logoutButton {
+  background-color: red !important;
+  width: 200px;
+  height: 50px;
+  font-size: 30px !important;
+  margin-bottom: 10px !important;
+}

@@ -1,0 +1,36 @@
+.navBar {
+  position: absolute;
+  background-color: #282c34;
+  width: 100%;
+  height: 80px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  ul {
+    list-style: none;
+    li {
+      display: inline-block;
+      text-decoration: none;
+      margin-right: 60px;
+      a {
+        color: white;
+        font-size: 40px;
+        text-decoration: none;
+        font-family: "Moo Lah Lah";
+      }
+      a:hover {
+        color: rgb(6, 182, 6);
+      }
+    }
+  }
+}
+
+.startRecording:hover {
+  color: #f84a4a !important;
+}
+
+.homeIcon {
+  position: absolute;
+  margin-left: -900px;
+  font-size: 50px !important;
+}

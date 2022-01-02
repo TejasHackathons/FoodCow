@@ -1,0 +1,19 @@
+.signUpContainer {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  margin-top: 100px;
+  gap: 30px;
+}
+
+.textField {
+  width: 50%;
+  margin-top: 30px;
+}
+
+.signUpHeader {
+  font-family: "Moo Lah Lah";
+  font-size: 60px;
+}

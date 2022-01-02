@@ -1,0 +1,46 @@
+$green: rgb(6, 182, 6);
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.cowTitle {
+  font-family: "Moo Lah Lah";
+  font-size: 90px;
+  color: $green;
+}
+
+.cowText {
+  font-size: 40px;
+  font-family: "Oxygen";
+}
+
+.mooText {
+  font-family: "Moo Lah Lah";
+  display: inline;
+  color: $green;
+}
+
+.newYearText {
+  color: #f84a4a;
+  display: inline;
+}
+
+.healthierText {
+  color: orange;
+  display: inline;
+}
+
+.cowImg {
+  width: 350px;
+}
